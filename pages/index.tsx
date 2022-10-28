@@ -4,7 +4,6 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export const Home = () => {
-  const foo = 'bart';
   return (
     <div className={styles.container}>
       <Head>
@@ -21,6 +20,8 @@ export const Home = () => {
         <nav>
           <Link href="/about">About</Link>
         </nav>
+
+        <div className="text-lg font-extrabold">FOOBAR</div>
 
         <p className={styles.description}>
           Get started by editing
