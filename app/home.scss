@@ -1,3 +1,13 @@
-.home_hero {
-  background-image: url('https://picsum.photos/1680/1050');
+#hero_home {
+  background-image: url('/images/hero_home.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#circle_home {
+  background-image: url('/images/circle_home.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
