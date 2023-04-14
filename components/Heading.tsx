@@ -2,6 +2,7 @@ import { Raleway } from '@next/font/google';
 
 const raleway = Raleway({
   weight: ['400', '500', '700'],
+  subsets: ['latin'],
 });
 
 type HeadingProps = {

@@ -10,7 +10,7 @@ export default function RootPage() {
         className="flex h-screen w-screen items-center justify-center"
       >
         <div className="ml-96 w-96">
-          <Heading level="h1" text="Julian Engel" classNames="text-white" />
+          <Heading level="h1" text="Hello..." classNames="text-white" />
           <div className="my-4">
             <Border color="bg-[#aaaaaa]" />
           </div>
